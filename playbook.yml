@@ -9,7 +9,7 @@
       loop:
       - python
       - python-docker
-      when
+      when:
       - ansible_distribution == "Ubuntu"
     - name: install docker python centos
       yum:
