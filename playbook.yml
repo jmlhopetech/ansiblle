@@ -28,5 +28,5 @@
         state: started
         image: "{{ image }}"
         recreate: yes
-        published_port:
+        published_ports:
         - 8090:80
